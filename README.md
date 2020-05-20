@@ -1,17 +1,32 @@
-# Discord Git Webhook
+# Discord Git Bot
+
+Discord Git Bot using Webhooks.
+
+## Prerequisites
+
+- CURL
+- Discord Server Admin privileges
 
 ## Configure
 
-- Set your info inside `config.sh`.
+- Install CURL
 
 ```sh
-url='https://discordapp.com/api/webhooks/0000000000000000000000005646848964asdasd846gq4284'
-username='MessageNotifier'
-message="Hello Hello!"
+sudo apt install curl
 ```
+
+- Create a discord bot inside Discord Server
+
+- Set your configs inside `config.sh`.
 
 ## Send message - Curl
 
 ```sh
 source start.sh
 ```
+
+## References
+
+- [GitMoji](https://gitmoji.carloscuesta.me)
+- [Discord Webhooks](https://birdie0.github.io/discord-webhooks-guide/tools/curl.html)
+- [ASCIIMoji](http://asciimoji.com)
